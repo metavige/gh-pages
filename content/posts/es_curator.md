@@ -16,7 +16,7 @@ tags:
 
 [參考文件 - Curator Guide](https://www.elastic.co/guide/en/elasticsearch/client/curator/current/about.html)
 
-### CONFIG
+## Config
 
 連接 ElasticSearch 所需要的設定檔案，預設是應該放在 `~/.curator/curator.yml`
 
@@ -42,7 +42,7 @@ logging:
   blacklist: ['elasticsearch', 'urllib3']
 ```
 
-### Action
+## Action
 
 我這邊因為會有兩組 indices  
 其中我想 topbeat 資料比較多，保留七天。  
@@ -92,7 +92,7 @@ actions:
       exclude:
 ```
 
-### 執行
+## 執行
 
 接下來只需要執行下面指令就可以了～  
 
@@ -100,7 +100,7 @@ actions:
 > curator action.yml
 ```
 
-### Docker
+## Docker
 
 我把專案放在 Github 上面: [elasticsearch-curator](https://github.com/metavige/elasticsearch-curator)
 
