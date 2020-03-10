@@ -2,6 +2,7 @@ baseURL = "https://metavige.github.io/"
 languageCode = "en"
 title = "metavige"
 theme = "hyde"
+paginate = 5
 
 googleAnalytics = "UA-60626505-1"
 disqusShortname = "metavigegitpages"
