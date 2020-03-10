@@ -1,0 +1,18 @@
+baseURL = "https://metavige.github.io/"
+languageCode = "en"
+title = "metavige"
+theme = "hyde"
+
+googleAnalytics = "UA-60626505-1"
+disqusShortname = "metavigegitpages"
+
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
+
+[params]
+  description = "生命會自己找到出路，程式 Bug 不會自己修復，孩子～"
+
+[Menus]
+  main = [
+      {Name = "Github", URL = "https://github.com/metavige/"}
+  ]
